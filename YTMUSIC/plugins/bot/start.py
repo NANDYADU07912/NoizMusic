@@ -114,43 +114,43 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        baby = await message.reply_text(f"**❖ ʜᴇʟʟᴏ ᴍʏ ᴅᴇᴀʀ 💕**")
+        baby = await message.reply_text(f"❤️")
         
         # Add delay between each message edit (0.5 seconds delay)
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ɢᴇᴛᴛɪɴɢ ʀᴇᴀᴅʏ ꜰᴏʀ ʏᴏᴜ 💖**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🖤")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ᴘʀᴇᴘᴀʀɪɴɢ ᴍᴀɢɪᴄ ✨**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🧡")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ʟᴏᴀᴅɪɴɢ ᴀᴡᴇꜱᴏᴍᴇɴᴇꜱꜱ 🌟**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"💙")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ᴀʟᴍᴏꜱᴛ ᴛʜᴇʀᴇ ᴄᴜᴛɪᴇ 🥰**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"💚")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ʜᴀʟꜰᴡᴀʏ ᴅᴏɴᴇ ꜱᴡᴇᴇᴛɪᴇ 💝**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🩶")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ꜱᴛᴀʀᴛɪɴɢ ᴇɴɢɪɴᴇ 🚀**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"💜")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ʏᴏᴜ'ʀᴇ ᴀᴍᴀᴢɪɴɢ 😍**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"💛")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ᴀʟᴍᴏꜱᴛ ʀᴇᴀᴅʏ ʙᴀʙᴇ 💞**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🤎")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ᴊᴜꜱᴛ ᴀ ꜱᴇᴄᴏɴᴅ ᴍᴏʀᴇ 💫**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🩷")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ᴡᴏᴡ! ᴄᴏᴍᴘʟᴇᴛᴇᴅ 🎉**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"🤍")
         
-        await asyncio.sleep(0.5)
-        await baby.edit_text(f"**❖ ɴᴏᴡ sᴛᴀʀᴛᴇᴅ..**")
+        await asyncio.sleep(0.3)
+        await baby.edit_text(f"👁️")
         
-        await asyncio.sleep(1)  # Final message thoda zyada time show karne ke liye
+        await asyncio.sleep(0.7)  # Final message thoda zyada time show karne ke liye
         await baby.delete()
 
         await message.reply_photo(photo=config.START_IMG_URL,
