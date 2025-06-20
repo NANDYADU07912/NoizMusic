@@ -59,6 +59,19 @@ async def chatbot_help_cb(client, callback_query):
         ),
     )
 
+@app.on_callback_query(filters.regex("ping_popup"))
+async def ping_cb(_, callback_query):
+    import time
+    start = time.time()
+    m = await callback_query.message.reply("Pinging...")
+    end = time.time()
+    ping = round((end - start) * 1000)
+    await m.delete()
+    await callback_query.answer(
+        f"Ping: {ping} ms\nMade By @ShrutiBots",
+        show_alert=True
+    )
+
 @app.on_callback_query(filters.regex("ADMIN") & ~BANNED_USERS)
 @languageCB
 async def del_back_playlist(client, CallbackQuery, _):
