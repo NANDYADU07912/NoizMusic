@@ -1,4 +1,4 @@
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, WebAppInfo
 
 import config
 from YTMUSIC import app
@@ -21,12 +21,21 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_10"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                url=f"https://t.me/{app.username}?startgroup=true"
             )
         ],
         [
             InlineKeyboardButton(text=_["S_B_12"], callback_data="abot_cb"),
             InlineKeyboardButton(text=_["S_B_13"], callback_data="ubot_cb"),
         ],
+        [
+            InlineKeyboardButton("ᴘɪɴɢ 💌", callback_data="ping_popup"),
+            InlineKeyboardButton(
+                text="ɢɪᴛʜᴜʙ 🗨️",
+                web_app=WebAppInfo(
+                    url="https://github.com/NoxxOP?tab=repositories"
+                )
+            )
+        ]
     ]
     return buttons
