@@ -7,7 +7,7 @@ class BUTTONS(object):
     ABUTTON = [
         [InlineKeyboardButton("🛠️ ˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/ShrutiBotSupport")],
         [InlineKeyboardButton("📢 ˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ShrutiBots"),
-         InlineKeyboardButton("˹ ❍ᴡɴᴇꝛ ˼", user_id=7674874652),
+         InlineKeyboardButton("˹ ❍ᴡɴᴇꝛ ˼", user_id=7574330905),
          InlineKeyboardButton("🤖 ˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/ShrutiAllBots")],
         [InlineKeyboardButton("🔙 ↺ ʙᴧᴄᴋ ↻", callback_data="settingsback_helper")]
     ]
